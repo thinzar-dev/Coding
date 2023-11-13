@@ -1,0 +1,32 @@
+h1 { 
+            color: green; 
+            text-align: center; 
+        } 
+  
+        h3 { 
+            text-align: center; 
+            margin-bottom: 100px; 
+        }
+
+        .img { 
+            width: 50px; 
+            height: 50px; 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+            animation: GFG 5s infinite linear; 
+        } 
+
+        @keyframes GFG { 
+            0% { 
+                transform: rotate(0deg)  
+                      translateY(100px) rotate(0deg); 
+            } 
+  
+            100% { 
+                transform: rotate(-360deg)  
+                      translateY(100px) rotate(360deg); 
+            } 
+        }
+
+

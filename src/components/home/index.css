@@ -1,0 +1,275 @@
+.bg-layout {
+    background-color: #FEDDE4;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.bg-layout ul li {
+    display: inline;
+}
+
+.animateImg {
+  animation-name : mymove;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 0.6s;
+  width: 48%;
+}
+
+@keyframes mymove {
+  from {transform: translateY(-30px);}
+  to {transform: translateY(30px);}
+}
+
+
+.img-row1, .img-row2 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.img-row3 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.img-row1 img {
+    margin-left: -31%;
+    margin-top: -15%;
+    width: 50%;
+}
+
+.img-row2 img {
+    margin-left: -25%;
+    margin-top: -28%;
+}
+
+.img-row3 img {
+    margin-left: -28%;
+    margin-top: -32%;
+}
+
+.imgPosition1 {
+    animation-delay: -1500ms;
+}
+
+.imgPosition2 {
+    animation-delay: -3000ms;
+}
+
+.imgPosition3 {
+    animation-delay: -2000ms;
+}
+
+.imgPosition4 {
+    animation-delay: -1000ms;
+}
+
+.imgPosition5 {
+    animation-delay: -3000ms;
+}
+
+.imgPosition6 {
+    animation-delay: -2000ms;
+}
+
+.imgPosition7 {
+    animation-delay: -1500ms;
+}
+
+.imgPosition8 {
+    animation-delay: -3000ms;
+}
+
+.imgPosition9 {
+    animation-delay: -2000ms;
+}
+
+.imgPosition10 {
+    animation-delay: -1000ms;
+}
+
+.imgPosition11 {
+    animation-delay: -3000ms;
+}
+
+.imgPosition12 {
+    animation-delay: -1500ms;
+}
+
+.imgPosition13 {
+    animation-delay: -2000ms;
+}
+
+.imgPosition14 {
+    animation-delay: -2500ms;
+}
+
+.imgPosition15 {
+    animation-delay: -1000ms;
+}
+
+.imgPosition16 {
+    animation-delay: -2000ms;
+}
+
+/* .imgPosition1 {
+    position: fixed;
+    top: -65%;
+    left: -15%;
+    animation-delay: -1500ms;
+}
+
+.imgPosition2 {
+    position: fixed;
+    top: -25%;
+    left: 0%;
+    animation-delay: -1000ms;
+    z-index: 5;
+}
+.imgPosition3 {
+    position: fixed;
+    top: -55%;
+    left: 23%;
+    animation-delay: -2000ms;
+    z-index: 0;
+}
+
+.imgPosition4 {
+    position: fixed;
+    top: -15%;
+    left: 20%;
+    animation-delay: 1000ms;
+    z-index: 4;
+}
+
+.imgPosition5 {
+    position: fixed;
+    top: -58%;
+    right: -18%;
+    animation-delay: -2000ms;
+    z-index: 8;
+}
+
+.imgPosition6 {
+    position: fixed;
+    top: -45%;
+    left: -18%;
+    animation-delay: -1000ms;
+    z-index: 8;
+}
+
+.imgPosition7 {
+    position: fixed;
+    top: -5%;
+    right: -20%;
+    animation-delay: -3000ms;
+    z-index: 10;
+}
+
+.imgPosition8 {
+    position: fixed;
+    top: 0%;
+    left: -20%;
+    animation-delay: -2000ms;
+    z-index: 12;
+}
+
+.imgPosition9 {
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    animation-delay: -2000ms;
+    z-index: 5;
+}
+
+.imgPosition10 {
+    position: fixed;
+    top: 32%;
+    left: -30%;
+    animation-delay: -1000ms;
+    z-index: 18;
+}
+
+.imgPosition11 {
+    position: fixed;
+    top: -8%;
+    left: 40%;
+    animation-delay: -1000ms;
+    z-index: 11;
+}
+
+.imgPosition12 {
+    position: fixed;
+    top: 45%;
+    left: -6%;
+    animation-delay: -3000ms;
+    z-index: 12;
+}
+
+.imgPosition13 {
+    position: fixed;
+    top: 35%;
+    left: 17%;
+    animation-delay: -1000ms;
+    z-index: 12;
+}
+
+.imgPosition14 {
+    position: fixed;
+    top: 28%;
+    left: 40%;
+    animation-delay: -2000ms;
+    z-index: 11;
+}
+
+.imgPosition15 {
+    position: fixed;
+    top: 28%;
+    right: -20%;
+    animation-delay: -1000ms;
+    z-index: 12;
+}
+
+.imgPosition16 {
+    position: fixed;
+    top: 60%;
+    right: 0%;
+    animation-delay: -3000ms;
+    z-index: 12;
+} */
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.container img {
+  position: absolute;
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  object-fit: cover;
+  box-shadow: 0 6px 20px 0 rgba(21, 24, 23, 0.44);
+}
+.container img.image1 {
+  bottom: 0;
+  left: 0;
+}
+.container img.image2 {
+  right: 0;
+  top: 0;
+}
+@media (min-width: 720px) {
+  .container {
+    /* width: 480px;
+    height: 280px; */
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    /* width: 580px;
+    height: 380px; */
+  }
+}
